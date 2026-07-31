@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram Reel Tagger</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <link rel = "stylesheet" href = "index.css">
+</head>
+<body>
+    <div id ="app">
+        <input type ="text" placeholder = "Reel IG Link" id="reel-input-el">
+        <input type ="text" placeholder = "Tag" id="tag-input-el">
+        <div>
+            <button id="input-btn">SAVE INPUT</button>
+            <button id="tab-btn">FETCH URL</button>
+            <button id="show-btn">SHOW SAVED</button>
+        </div>
+        <input type="text" id="search-input" placeholder="Search by Tag">
+        <button id="search-btn">SEARCH</button>
+        <span id ="below-search">
+            <p id="copyright-name">&copy; Tirtha Halder</p>
+            <img src ="ig-white-icon.webp" id = "insta-icon">
+        </span>
+        <ul id = "ul-El"></ul>
+    </div>
+        <div id="menu-container">
+            <button id="menu-btn">&#8942;</button>
+        <div id="menu-dropdown" class="hidden">
+            <button id="export-btn">Export</button>
+            <button id="import-btn">Import</button>
+            <hr>
+            <button id="delete-all-btn">🗑 Delete All</button>
+        </div>
+    </div>
+
+    <input type="file" id="import-file" accept=".json" hidden>
+    <script src="index.js"></script>
+</body>
+</html>
