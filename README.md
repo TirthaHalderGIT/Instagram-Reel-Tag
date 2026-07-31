@@ -11,16 +11,26 @@ A lightweight Chrome Extension that lets you save Instagram Reels with custom ta
 - 📥 Import previously exported backups
 - 🚫 Automatically skips duplicate tags during import
 - 🗑 Delete all saved reels with confirmation
-- 💾 Data is stored locally using the browser's Local Storage
+- 💾 Data is persistent and stored locally using the browser's Local Storage
 - 🎨 Clean and modern popup interface with a three-dot options menu
 
 ---
 
 ## Screenshots
 
-> Add screenshots of your extension here.
+> Here are some screenshots.
 
-Example:
+### Main Window :
+
+![Main Window](screenshots/home.png)
+
+### Options Menu :
+
+![Options Menu](screenshots/menu.png)
+
+### Search :
+
+![Search](screenshots/search.png)
 
 ```
 /screenshots/home.png
@@ -176,6 +186,6 @@ GitHub: https://github.com/<your-username>
 
 ## License
 
-This project is licensed under the MIT License.
+No License
 
 © Tirtha Halder
